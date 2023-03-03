@@ -21,3 +21,17 @@ header{
    border-radius: 30%; width: 300px; height: 10; 
 
 }
+
+
+.flex-container{
+   background-color: aqua;
+   text-decoration: none;
+}
+.flex-item{
+   background-color: aliceblue;
+   padding: 2%;
+   border: #8F60CE;
+   margin: 10px;
+
+
+}
