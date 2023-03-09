@@ -40,7 +40,7 @@ header h1{
 
 .imagens-topo img{
    width: 100px; height: 100px; border-radius: 50%;
-   padding: 50px; margin-top: 2%; 
+   padding: 55px; margin-top: 2%; 
    display: flex;
    justify-content:space-around ;
    flex-flow: row wrap;
@@ -69,32 +69,37 @@ header h1{
 }
 
 .flex-container{
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: space-around;
-   margin:0;
-   list-style: none;
-   background-color:rgb(255, 251, 251);
-   height: 30px;
-   margin-top: 5%;
-   margin-right: 2%;
-   margin-left: 2%;
-}
+      width: 300px;
+      height: 300px;
+      padding: 50px;
+      border: 1px solid #ccc;
+      margin-right: 30px;
+      margin-left: 30px ;
+      background-color: #f9f9f9;
+      color: #333;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      text-align: center;
+      list-style: none;
+      display: flex
+      
+    }
+  
    
 .flex-item{
    
    background-color: #EEE9E9;
-   width: 150px;
+   width: 500px;
    height: 150px;
-   padding: 22px;
-   font-size: medium;
+   padding: 50px;
+   font-size: small;
    background-size: cover;
-   border-radius: 20%;
+   border-radius: 15%;
+   margin: 55px;
    
 }
-.margin{
-   margin-left: 20%;
-   margin-right: 20%;
-   justify-content: center;
-}
+
+
+
 
