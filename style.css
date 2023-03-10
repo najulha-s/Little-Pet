@@ -3,7 +3,7 @@
 }
 
 body {
-   background-color: #f7f4f4;
+   background-color: #ffffff;
    color: rgb(0, 4, 3);
    margin: 0;
 }
@@ -16,7 +16,7 @@ header {
 header h1 {
    margin: 0;
    font-size: 30pt;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:Arial, Helvetica, sans-serif;
    /* padding-left: 100px;
    padding-top: 25px; */
 }
@@ -30,12 +30,22 @@ header h1 {
    display: flex;
    justify-content: space-around;
    align-items: center;
+   
 }
 
-.topo {
-   height: 20px;
-   width: 400px;
+.topo input{
+   width: 500px;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-color:rgb(253, 253, 253);
 }
+
+
+
+   
+
 
 .seções img {
    width: 100px;
@@ -109,10 +119,18 @@ header h1 {
    line-height: 1.5;
    text-align: center;
    list-style: none;
-   display: flex
+   display: flex;
+   gap: 2em;
+
 }
 
-.flex-container2 {
+.flex-container::-webkit-scrollbar,
+.flex-container2::-webkit-scrollbar,
+.imagens-topo::-webkit-scrollbar {
+   display: none;
+}
+
+.flex-container2  {
    overflow-y: auto;
    margin-right: 30px;
    margin-left: 30px;
@@ -121,39 +139,75 @@ header h1 {
    line-height: 1.5;
    text-align: center;
    list-style: none;
-   display: flex
+   display: flex;
+   gap: 5em;
+   
+}
+
+.flex-container2 img{
+   width: 100%;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+
+.flex-container2 i{
+   color: #8F60CE;
+   margin-top: 80px
+}
+
+.promo img{
+   height: 80%;
 }
 
 .flex-item {
 
-   background-color: #EEE9E9;
+   background-color: #f2f2f2;
    width: 1000px;
    height: 100px;
-   padding: 50px;
+   /* padding: 50px; */
    font-size: small;
    background-size: 30px;
    border-radius: 10%;
-   margin: 30px;
+   /* margin: 30px; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly; 
+   width: 15em; /* tamanho do card */
+   height: 20em; /* tamanho do card */
 }
 
-.flex-item img{
+.flex-item img {
    width: 150px;
    height: 115px;
 }
 
+.flex-item h4,
+.flex-item p {
+   margin: 0;
+}
+
+.flex-item a{
+   text-decoration: none;
+   color: black;
+}
 
 
 
 .flex-item2 {
 
    background-color: #EEE9E9;
-   width: 1000px;
-   height: 100px;
-   padding: 70px;
+   width: 600px;
+   height: 200px;
+   /* padding: 70px; */
    font-size: small;
    background-size: 30px;
-   border-radius: 5%;
-   margin: 40px;
+  border-radius:  10%;
+   /* margin: 40px; */
+   display: flex;
+   gap: 0px;
 
 }
 
@@ -271,9 +325,8 @@ footer p {
 }
 
 .formulario textarea {
-   height: 100px;
-   border: black;
-   width: 100px;
+   height: 150px;
+   width: 400px;
    display: flex;
    justify-content: center;
 }
@@ -292,7 +345,18 @@ form h3 {
    height: 100px;
 }
 
-form input{
+form input {
    width: 50px;
    display: f;
+}
+
+p a{
+   text-decoration: none;
+   color: white;
+}
+
+.entrar{
+   align-items: center;
+   font-size: large;
+   
 }
