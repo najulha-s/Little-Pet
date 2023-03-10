@@ -3,9 +3,19 @@
 }
 
 body {
-   background-color: #ffffff;
+   background-color: #eee9f4f0;
    color: rgb(0, 4, 3);
    margin: 0;
+}
+
+body h2{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: xx-large;
+}
+
+body h3{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: x-large;
 }
 
 header {
@@ -58,7 +68,9 @@ header h1 {
 
 .imagens-topo {
    scrollbar-width: none;
-   margin-top: 5em;
+   margin-top: 2em;
+   margin-left: 5em;
+   margin-right: 5em;
    list-style: none;
    display: flex;
    gap: 5em;
@@ -81,6 +93,12 @@ header h1 {
    flex-flow: row wrap;
    height: 100px;
    margin: 0;
+   border-style: groove;
+   border-color: rgba(206, 171, 255, 0.557);
+}
+
+.imagens-topo p{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .barra-menu {
@@ -107,6 +125,7 @@ header h1 {
    color: white;
    margin: 6px;
    font-size: larger;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -120,7 +139,9 @@ header h1 {
    text-align: center;
    list-style: none;
    display: flex;
-   gap: 2em;
+   gap: 5em;
+   margin: 3%;
+   
 
 }
 
@@ -141,6 +162,7 @@ header h1 {
    list-style: none;
    display: flex;
    gap: 5em;
+   margin-bottom: 5%;
    
 }
 
@@ -150,6 +172,7 @@ header h1 {
    border-top-left-radius: 20px;
    border-bottom-right-radius: 20px;
    border-bottom-left-radius: 20px;
+ 
 }
 
 .flex-container2 i{
@@ -177,6 +200,8 @@ header h1 {
    justify-content: space-evenly; 
    width: 15em; /* tamanho do card */
    height: 20em; /* tamanho do card */
+   border-style: groove;
+   border-color: rgba(193, 171, 203, 0.301);
 }
 
 .flex-item img {
@@ -208,6 +233,8 @@ header h1 {
    /* margin: 40px; */
    display: flex;
    gap: 0px;
+   border-style: groove;
+   border-color: #b4a5ca57;
 
 }
 
@@ -259,6 +286,7 @@ footer h3 {
    font-size: small;
 }
 
+
 .telefone {
    font-family: Arial, Helvetica, sans-serif;
 }
@@ -281,6 +309,9 @@ footer h3 {
 
 h3 {
    margin-left: 110px;
+   margin-top: 2%;
+   margin-bottom: 3%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer h4 {
@@ -289,6 +320,7 @@ footer h4 {
 
 h2 {
    margin-left: 110px;
+   margin: 5%;
 }
 
 footer p {
@@ -358,5 +390,24 @@ p a{
 .entrar{
    align-items: center;
    font-size: large;
-   
+}
+
+/*.granplus img{
+   display: flex;
+   margin-top: 5em;
+   width: 40%;*/
+}
+
+
+.granplus{
+   list-style: none;
+   display: flex;
+   gap: 5em;
+
+}
+
+.compra{
+      display: flex;
+      gap: 10em;
+      
 }
