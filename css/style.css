@@ -41,6 +41,14 @@ header h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-decoration: none;
+}
+
+.topo a{
+  
+    text-decoration: none;
+    color: white;
+
 }
 
 .topo input {
